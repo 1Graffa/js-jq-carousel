@@ -34,7 +34,6 @@ function pulsanteNext(){
   }
 
 
-
 }
 function pulsantePrev(){
 
