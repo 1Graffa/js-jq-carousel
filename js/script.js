@@ -17,7 +17,6 @@ $(document).ready(function(){
     $('.nav i.active').removeClass('active');
     $(this).addClass('active');
     $(imgAttiva).removeClass('active');
-
   });
 
 });
