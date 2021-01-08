@@ -1,7 +1,9 @@
 $(document).ready(function(){
 
-  $('.next').click(pulsanteNext); //funzione di callback che parte dopo il click
+  $('.next').click(pulsanteNext);
+  $(document).keydown(pulsanteNext);
   $('.prev').click(pulsantePrev);
+
 
   $('.nav i').click(function(){
     $('.nav i.active').removeClass('active');
