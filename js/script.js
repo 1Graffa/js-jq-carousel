@@ -1,7 +1,15 @@
 $(document).ready(function(){
 
   $('.next').click(pulsanteNext);
-  $(document).keydown(pulsanteNext);
+  $(document).keydown(function(e){
+    // se clicco la freccia destra
+    if (e.keyCode === 39) {
+      pulsanteNext()
+    // se clicco la freccia sinistra
+    } else if (e.keyCode === 37) {
+      pulsantePrev()
+    }
+});
   $('.prev').click(pulsantePrev);
 
 
