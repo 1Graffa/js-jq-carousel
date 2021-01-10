@@ -12,13 +12,18 @@ $(document).ready(function(){
 });
   $('.prev').click(pulsantePrev);
 
+//questa sposta solo i pallini senza le immagini , quella sotto invece (la non commentata) fa corrispondere i pallini alle immagini
 
-  $('.nav i').click(function(){
-    $('.nav i.active').removeClass('active');
-    $(this).addClass('active');
-    $(imgAttiva).removeClass('active');
-  });
-
+  // $('.nav i').click(function(){
+  //   $('.nav i.active').removeClass('active');
+  //   $(this).addClass('active');
+  //   $(imgAttiva).removeClass('active');
+  // });
+  $(".nav i").click(function() {
+    $(".active").removeClass("active");
+    $(this).addClass("active");
+    $("img").eq($(this).index()).addClass("active");
+    });
 });
 
 function pulsanteNext(){

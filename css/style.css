@@ -5,6 +5,10 @@
     font-family: 'Lato';
 }
 .container {
+    background-image: url("https://www.fightersgeneration.com/nx8/game/streetfighter2-white-logo.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
     display: flex;
     margin: 0 auto;
     width: 70%;
@@ -51,7 +55,7 @@
     color: white;
 }
 .nav > i {
-    margin: 0 20px;
+    margin: 5px 20px;
 }
 .nav > i.active {
     color: blue;
