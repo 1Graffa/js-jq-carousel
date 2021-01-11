@@ -39,12 +39,13 @@ body{
 }
 .prev, .next {
     position: absolute;
-    color: #565a5c;
+    color: #FFFF00;
     top: 50%;
     left: 0;
     transform: translateY(-50%);
-    font-size: 40px;
+    font-size: 80px;
     cursor: pointer;
+    text-shadow: 3px 3px 10px #DD1329;
 }
 .next {
     left: auto;
